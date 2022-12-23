@@ -1,3 +1,7 @@
+:root {
+  --background: #000735;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   color: rgba(0, 0, 0, .5);
@@ -5,7 +9,7 @@ body {
   text-transform: uppercase;
   letter-spacing: .5em;
   top: 15%;
-  background: linear-gradient(to right, red, yellow);
+  background: linear-gradient(to right, rgb(255, 0, 0), blue);
 }
 
 h1 {
@@ -17,4 +21,26 @@ h3 {
   font: 900 1em 'Raleway', sans-serif;
   text-transform: none;
   letter-spacing: 0.01em;
+}
+
+.css {
+  font-size: 1.3em;
+  display: inline-block;
+  padding: 0.7em;
+  background-color: var(--background);
+  border-radius: 1em;
+  color: #fff;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--background);
+  color: white;
+  border: 1px solid #eee;
+  font-family: 'Raleway', sans-serif;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  border-radius: 1em;
+  cursor: pointer;
 }
